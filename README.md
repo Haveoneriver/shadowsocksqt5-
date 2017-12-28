@@ -4,24 +4,38 @@ shadowsocksq5的安装与设置全局代理
 
  本文基于Ubuntu 16.04，使用Shadowsocks-Qt5和GenPAC，达到全局代理的效果。
 基本软件：
+
 Ubuntu 16.04
+
 Shadowsocks-Qt5
+
 GenPAC
+
 pip
 
  一、准备
 Shadowsocks-Qt5
+
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
+
 sudo apt-get update
+
 sudo apt-get install shadowsocks-qt5
+
 下载完成后在终端打开shadowsocks-qt进行配置
 
  pip：
+
 sudo apt-get install python-pip python-dev build-essential 
+
 sudo pip install --upgrade pip 
+
 sudo pip install --upgrade virtualenv 
+
 GenPAC：
+
 sudo pip install genpac
+
 sudo pip install --upgrade genpac
 
 
