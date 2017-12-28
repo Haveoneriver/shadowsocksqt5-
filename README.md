@@ -70,8 +70,14 @@ sudo genpac --proxy="SOCKS5 127.0.0.1:1080" -o autoproxy.pac --gfwlist-url="http
 
 
 (3) 全局代理
+
 systemsetting –> network –> network proxy
+
 “Method”选择“Automatic”
+
 “配置URL”填写
-file:///home/leo/Software/autoproxy.pac    (在配置URL这栏不要加上双引号！)
-点击“应用到整个系统”
+file:///home/leo/Software/autoproxy.pac        (在配置URL这栏不要加上双引号！ )
+
+                                             /home/leo/Software/autoproxy.pac （这是刚才你下载的autoproxy.pac的文件路径）
+
+最后点击“应用到整个系统”
